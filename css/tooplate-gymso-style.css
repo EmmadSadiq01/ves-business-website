@@ -267,6 +267,7 @@ html{
   .navbar {
     background: #000000;
     padding: 1rem;
+    height: 5rem;
     box-shadow: 0px -3px 10px 1px black;
   }
   img.logo {
@@ -945,4 +946,25 @@ section#contact p{
 
 .owl-item{
   width: 425px !important;
+}
+
+.class-thumb img {
+  width: 100%;
+}
+.director_msg p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.director_msg h4 {
+  text-align: left;
+  margin-bottom: 0px;
+}
+p#director_name {
+  font-size: 14px;
+}
+.class-thumb {
+  border: 3px solid #f13a11;
+  border-radius: 10px;
+  overflow: hidden;
 }
