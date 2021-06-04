@@ -1,0 +1,69 @@
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.site-footer {
+    margin-top: auto;
+}
+.main {
+    margin-top: 5rem;
+}
+
+
+/* banner img */
+.img-container img {
+    width: 100%;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-items: center; */
+    height: 100%;
+}
+.banner {
+    background-image: linear-gradient(
+45deg
+, black, #f13a11);
+    padding: 20px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content h4 {
+    color: white;
+    font-size: 29px;
+}
+
+
+/* web container */
+
+.web-description {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.web-content {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #ec3911;
+}
+.web-content p{
+    color: white;
+}
+
+.onScrollColor{
+    background-color: white;
+    color: black;
+}
+.onScrollColor p{
+    color: black;
+}

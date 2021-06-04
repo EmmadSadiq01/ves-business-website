@@ -968,3 +968,22 @@ p#director_name {
   border-radius: 10px;
   overflow: hidden;
 }
+
+/* whatsapp  */
+.jHUeFm{
+  background: rgb(241 58 17 / 67%) !important;
+}
+
+.fVQzHn{
+  background: rgb(14 4 2) !important;
+}
+
+.gNtPDo p{
+  color: white !important;
+}
+.gtkCjz {
+  color: rgb(241 58 17);
+}
+.whatsapp-chat{
+  position: absolute;
+}
