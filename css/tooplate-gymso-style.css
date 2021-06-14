@@ -987,3 +987,8 @@ p#director_name {
 .whatsapp-chat{
   position: absolute;
 }
+
+/* preloader css */
+#home_screen{
+  display: none;
+}

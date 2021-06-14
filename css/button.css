@@ -45,7 +45,7 @@
 }
 
 .btn-1 {
-  background: #4f4f51;
+  background: #a7a9ac;
   font-weight: 100;
 }
 
@@ -59,7 +59,7 @@
 
 .btn-1 rect {
   fill: none;
-  stroke: var(--primary-color);
+  stroke: #fff;
   stroke-width: 2;
   stroke-dasharray: 422, 0;
   -webkit-transition: all 0.35s linear;
@@ -69,7 +69,7 @@
 .btn-1:hover {
   background: rgba(225, 51, 45, 0);
   font-weight: 900;
-  /* letter-spacing: 1px; */
+  letter-spacing: 1px;
 }
 
 .btn-1:hover rect {
