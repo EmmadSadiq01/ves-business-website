@@ -14,6 +14,9 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/tooplate-gymso-style.css">
+
+    <!-- loader css -->
+    <link rel="stylesheet" href="loader.css">
 </head>
 <style>
     .career_container {
@@ -25,8 +28,16 @@
 </style>
 
 <body>
+    <div id=" preloader">
+        <div id="loaderBox">
+            <div id="loader"></div>
+            <div class="loaderText">
+                <p>Welcome to <b>Visualize Enterprises Solutions</b></p>
+            </div>
+        </div>
+    </div>
     <!-- MENU BAR -->
-    <div class="grid-container">
+    <div class="grid-container" id="home_screen">
 
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
@@ -60,24 +71,25 @@
                         <li class="nav-item">
                             <a href="index.html" class="nav-link">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link active">Careers</a>
-                        </li>
 
                         <li class="nav-item">
                             <a href="index.html" class="nav-link">Contact</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="../careers.html" class="nav-link active">Careers</a>
+                        </li>
+
 
                         <!-- <li class="nav-item">
-                            
-                        </li> -->
+                        
+                    </li> -->
                     </ul>
 
                     <!-- <ul class="social-icon ml-lg-3">
-                        <li><a href="https://fb.com/tooplate" class="fa fa-facebook"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
-                        <li><a href="#" class="fa fa-instagram"></a></li>
-                    </ul> -->
+                    <li><a href="https://fb.com/tooplate" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul> -->
                     <ul class="social-icon ml-lg-3">
                         <li><a href="https://mhs.ves-engr.com/" target="_blank" class="mybtn btn-1">
                                 <svg>
@@ -190,7 +202,15 @@
             </div>
         </footer>
     </div>
-
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            setTimeout(function () {
+                $("#preloader").fadeOut('slow');
+                $("#home_screen").fadeIn('slow');
+            }, 1000)
+        })
+    </script>
 </body>
 
 </html>
