@@ -1,5 +1,4 @@
-n<?php
-include 'db_connect.php';
+<?php
 $im_id = $_POST['im_id'];
 if(isset($_POST['submit']))
 {
