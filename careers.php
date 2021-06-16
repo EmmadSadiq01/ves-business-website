@@ -148,7 +148,7 @@
                     </div>
                     <div class="col-md-6 col-12">
                         <div class="career_form">
-                            <form action="careers_upload.php" method="post" class="contact-form webform" action="upload.php" enctype="multipart/form-data">
+                            <form action="careers_upload.php" method="post" class="contact-form webform" enctype="multipart/form-data">
                                 <input type="text" class="form-control" name="cf-name" placeholder="Name">
 
                                 <input type="email" class="form-control" name="cf-email" placeholder="Email">
