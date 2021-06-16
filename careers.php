@@ -67,7 +67,7 @@
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
 
-                <a class="navbar-brand" href="index">
+                <a class="navbar-brand" href="./">
                     <div class="ves-logo">
                         VES
                     </div>
@@ -85,22 +85,22 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-lg-auto">
                         <li class="nav-item">
-                            <a href="index" class="nav-link">Home</a>
+                            <a href="./" class="nav-link">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="index" class="nav-link">Services</a>
+                            <a href="./" class="nav-link">Services</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="index" class="nav-link">About</a>
+                            <a href="./" class="nav-link">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="index" class="nav-link">Contact</a>
+                            <a href="./" class="nav-link">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../careers" class="nav-link active">Careers</a>
+                            <a href="../careers.php" class="nav-link active">Careers</a>
                         </li>
 
 
