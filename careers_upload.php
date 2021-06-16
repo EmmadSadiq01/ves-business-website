@@ -1,5 +1,4 @@
 <?php
-$im_id = $_POST['im_id'];
 if(isset($_POST['submit']))
 {
 	$extension=array('jpeg','jpg','png', 'pdf','docx');
