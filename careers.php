@@ -155,7 +155,7 @@
                                 <!-- <input type="file" class="form-control" name="image[]" placeholder="Attach your CV"> -->
                                 <div class="em_form-file">
                                     Upload CV <small>pdf | docx | image</small>
-                                    <input type="file">
+                                    <input type="file" name="image[]">
                                 </div>
 
                                 <!-- <textarea class="form-control" rows="5" name="cf-message" placeholder="Message"></textarea> -->
