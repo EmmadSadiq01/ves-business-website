@@ -25,24 +25,49 @@
         margin-bottom: 10rem;
         margin-top: 5rem;
     }
+
+    .em_form-file {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 2px solid #f13a11;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .em_form-file input {
+        position: absolute;
+        font-size: 50px;
+        opacity: 0;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+    .em_form-file small {
+    margin-left: 14px;
+}
 </style>
 
 <body>
-    <div id=" preloader">
+    <!-- <div id=" preloader">
         <div id="loaderBox">
             <div id="loader"></div>
             <div class="loaderText">
                 <p>Welcome to <b>Visualize Enterprises Solutions</b></p>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- MENU BAR -->
     <div class="grid-container" id="home_screen">
 
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
 
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index">
                     <div class="ves-logo">
                         VES
                     </div>
@@ -53,30 +78,29 @@
                     <!-- <img class="logo" src="images/logo.png" alt="ves"> -->
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-lg-auto">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="index" class="nav-link">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Services</a>
+                            <a href="index" class="nav-link">Services</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">About</a>
+                            <a href="index" class="nav-link">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Contact</a>
+                            <a href="index" class="nav-link">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../careers.html" class="nav-link active">Careers</a>
+                            <a href="../careers" class="nav-link active">Careers</a>
                         </li>
 
 
@@ -124,16 +148,19 @@
                     </div>
                     <div class="col-md-6 col-12">
                         <div class="career_form">
-                            <form action="#" method="post" class="contact-form webform" role="form">
+                            <form action="careers_upload.php" method="post" class="contact-form webform" action="upload.php" enctype="multipart/form-data">
                                 <input type="text" class="form-control" name="cf-name" placeholder="Name">
 
                                 <input type="email" class="form-control" name="cf-email" placeholder="Email">
-                                <input type="file" class="form-control" name="cf-cv" placeholder="Attach your CV">
+                                <!-- <input type="file" class="form-control" name="image[]" placeholder="Attach your CV"> -->
+                                <div class="em_form-file">
+                                    Upload CV <small>pdf | docx | image</small>
+                                    <input type="file">
+                                </div>
 
                                 <!-- <textarea class="form-control" rows="5" name="cf-message" placeholder="Message"></textarea> -->
 
-                                <button type="submit" class="form-control" id="submit-button"
-                                    name="submit">Send</button>
+                                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
                             </form>
                         </div>
                     </div>
@@ -203,13 +230,14 @@
         </footer>
     </div>
     <script src="js/jquery.min.js"></script>
+    </script>
     <script>
-        $(window).on('load', function () {
-            setTimeout(function () {
-                $("#preloader").fadeOut('slow');
-                $("#home_screen").fadeIn('slow');
-            }, 1000)
-        })
+        // $(window).on('load', function () {
+        //     setTimeout(function () {
+        //         $("#preloader").fadeOut('slow');
+        //         $("#home_screen").fadeIn('slow');
+        //     }, 1000)
+        // })
     </script>
 </body>
 
