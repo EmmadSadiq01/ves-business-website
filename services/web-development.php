@@ -21,11 +21,9 @@
     <link rel="stylesheet" href="../owlcarousel/dist/assets/owl.theme.default.min.css">
 
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- loader css -->
+    <!-- loader css -->
     <link rel="stylesheet" href="../loader.css">
 </head>
 
@@ -54,8 +52,7 @@
                     <!-- <img class="logo" src="images/logo.png" alt="ves"> -->
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -105,50 +102,52 @@
             </div>
         </nav>
 
-        
+
         <div class="main">
             <div class="banner">
-                <div class="container">
+                <div class="content">
+                    <h4>We build, create, and maintain websites. It includes aspects such as web design, web publishing, web programming, and database management.</h4>
+                </div>
+                <div class="img-container">
+                    <img src="../images/web-development-services.jpg" alt="">
+                </div>
+                <!-- <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-delay="0">
 
-                            <div class="content">
-                                <h4>content is here</h4>
-                            </div>
+                           
                         </div>
                         <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-delay="0">
 
                             <div class="side-img">
-                                <div class="img-container">
-                                    <img src="../images/why_ves.jpg" alt="">
-                                </div>
+                                
                             </div>
 
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="web-content">
                 <div class="web-container container">
                     <div class="row">
-                        <div class="col-md-6" data-aos="fade-right">
+                        <div class="col-md-6 hidden-x" data-aos="fade-in">
                             <div class="web-description">
                                 <h1>Web Development</h1>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis saepe
-                                    eius. Ullam nihil dolor voluptas nam, doloribus, beam nihil dolor voluptas nam,
-                                    doloribus, beam nihil dolor voluptas nam, doloribus, beam nihil dolor voluptas nam,
-                                    doloribus, beam nihil dolor voluptas nam, doloribus, beatae quo veniam quod non
-                                    saepe,
-                                    accusamus sunt sed quia modi. Nemo.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis saepe
-                                    eius. Ullam nihil dolor voluptas nam, doloribus, beatae quo veniam quod non saepe,
-                                    accusamus sunt sed quia modi. Nemo.</p>
+                                <p>Starting from branding to building a mobile friendly website, V.E.S offer all related services in the digital marketing ecosystem. After we develop & launch a website, we offer Website Annual Maintenance Packages, SEO services, Web Analytic services for measuring, tracking & bringing about ongoing improvements in enhancing website engagement, the customer acquisition journey, bounce rate analysis. V.E.S offer digital dashboards for showcasing the performance of your website, online campaign, social media channels.</p>
+                                <p> Thus, V.E.S can offer you all services from A to Z related to the life cycle of your web development. So whether you're only exploring your digital marketing journey with the first steps or you are mature in leveraging all the bells & whistles, V.E.S members have the skills and passion to take your organization's online journey to the next level.
+                                    Our website development services include dynamic, static & responsive websites.</p>
+                                <ul>
+                                    <li>Corporate Websites</li>
+                                    <li>Business Websites</li>
+                                    <li>Web Application</li>
+                                    <li>E-commerce</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-md-6" data-aos="zoom-out-left">
+                        <div class="col-md-6 hidden-x" data-aos="fade-in">
                             <div class="web-description">
                                 <div class="img-container">
-                                    <img src="../images/analysis.png" alt="">
+                                    <img src="../images/web-development.jpeg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -226,8 +225,8 @@
     <!-- <script src="../js/aos.js"></script> -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-          $(window).on('load', function () {
-            setTimeout(function () {
+        $(window).on('load', function() {
+            setTimeout(function() {
                 $("#home_screen").fadeIn('slow');
                 $("#preloader").fadeOut('slow');
             }, 500)

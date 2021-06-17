@@ -1,77 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap");
+.hidden-x {
+  overflow-x: hidden !important;
+}
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 .grid-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 .site-footer {
-    margin-top: auto;
+  margin-top: auto;
 }
 .main {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
-
 
 /* banner img */
-.img-container img {
-    width: 100%;
+.banner .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
 }
 .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* justify-items: center; */
-    height: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 5%;
+  position: absolute;
+}
+.img-container {
+  width: 100%;
+  height: 100vh;
 }
 .banner {
-    background-image: linear-gradient(
-45deg
-, black, #f13a11);
-    padding: 20px;
-    min-height: calc(100vh - 80px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: linear-gradient(45deg, black, #f13a11);
+  min-height: calc(100vh - 80px);
 }
 .content h4 {
-    color: white;
-    font-size: 29px;
+  font-size: 29px;
+  font-family: "Roboto Slab", serif;
+  width: 70%;
+  background: linear-gradient(45deg, #00000070, #0031528c);
+  color: #f9f9f9;
+  padding: 20px;
+  font-weight: 700;
+  border-radius: 15%;
 }
-
 
 /* web container */
 
 .web-description {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.web-container{
-    height: 100%;
+.web-container {
+  height: 100%;
 }
 
 .web-content {
-    /* height: 90vh; */
-    padding: 50px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: #ec3911;
+  /* height: 90vh; */
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #ec3911;
 }
-.web-content p{
-    color: white;
+.web-content p {
+  color: white;
 }
 
-.onScrollColor{
-    background-color: white;
-    color: black;
+.onScrollColor {
+  background-color: white;
+  color: black;
 }
-.onScrollColor p{
-    color: black;
+.onScrollColor p {
+  color: black;
+}
+
+.web-description .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.web-description .img-container img {
+  width: 100%;
+}
+
+@media screen and (max-width: 675px) {
+  .content {
+    padding: 5px;
+    width: 100%;
+  }
+  .content h4 {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+  }
 }
