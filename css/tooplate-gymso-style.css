@@ -265,9 +265,12 @@ div#navbarNav {
 
 .navbar {
   background: #000000;
-  padding: 1rem;
-  height: 5rem;
+  padding: 5px;
+  height: 8vh;
   box-shadow: 0px -3px 10px 1px black;
+}
+.navbar .container{
+  height: 100%;
 }
 img.logo {
   width: 110px;
@@ -292,6 +295,9 @@ img.logo {
   justify-content: center;
   align-items: center;
   font-size: 27px;
+  width: 30%;
+  padding-bottom: 0px;
+  height: 100%;
 }
 .navbar-brand:hover {
   color: white;
@@ -695,7 +701,11 @@ section#contact p {
 .copyright-text {
   margin: 0;
 }
-.ves-logo img {
+.navbar-brand img {
+  height: 100%;
+  width: auto;
+}
+.ves-logo img{
   width: 100%;
 }
 @media (max-width: 991px) {
@@ -703,7 +713,15 @@ section#contact p {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) and (min-width: 760px) {
+  .navbar-brand img { 
+    width: 40%;
+}
+}
+@media (max-width: 768px) {
+  /* .navbar-brand img {
+    width: 40%;
+} */
   .site-footer {
     padding-bottom: 0;
   }
