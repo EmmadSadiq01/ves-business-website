@@ -64,43 +64,49 @@
     <!-- MENU BAR -->
     <div class="grid-container" id="home_screen">
 
-        <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
 
-                <a class="navbar-brand" href="./">
-                    <div class="ves-logo">
-                        VES
-                    </div>
-                    <div class="tag-line">
-                        visualize Interprises Solutions
-                    </div>
+                <a class="navbar-brand" href="index">
+                    <!-- <div class="ves-logo">
+                    </div> -->
 
+                    <img src="images/logo-navbar.png" alt="">
                     <!-- <img class="logo" src="images/logo.png" alt="ves"> -->
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-lg-auto">
                         <li class="nav-item">
-                            <a href="./" class="nav-link">Home</a>
+                            <a href="#home" class="nav-link">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="./" class="nav-link">Services</a>
+                            <a href="#about" class="nav-link">Services</a>
+                            <div class="sub-menu">
+                                <!-- <ul>
+                                    <li>link</li>
+                                    <li>link</li>
+                                    <li>link</li>
+                                    <li>link</li>
+                                </ul> -->
+                            </div>
                         </li>
 
                         <li class="nav-item">
-                            <a href="./" class="nav-link">About</a>
+                            <a href="#class" class="nav-link">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="./" class="nav-link">Contact</a>
+                            <a href="#contact" class="nav-link">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../careers.php" class="nav-link active">Careers</a>
+                            <a href="careers.php" class="nav-link active">Careers</a>
                         </li>
 
 
